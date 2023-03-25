@@ -82,11 +82,11 @@ export default {
     methods: {
         getTime: function(datetime) {
             let _datetime = new Date(datetime)
-            return _datetime.toLocaleTimeString("pl-PL");
+            return _datetime.toLocaleTimeString("th-TH");
         },
         getDate: function(datetime) {
             let _datetime = new Date(datetime)
-            return _datetime.toLocaleDateString("pl-PL");
+            return _datetime.toLocaleDateString("th-TH");
         },
         transformSensorName: function(type, name) {
             switch (type) {
